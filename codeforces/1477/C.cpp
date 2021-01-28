@@ -37,7 +37,7 @@ using namespace __gnu_pbds;
 //min/max redefines, so i dont have to resolve annoying compile errors.
 #define min(a,b) (((a)<(b))?(a):(b))
 #define max(a,b) (((a)>(b))?(a):(b))
- 
+
 //Constants.
 #define MOD (ll(998244353))
 #define MAX 300001
@@ -66,8 +66,8 @@ typedef long double ld;
 typedef short sh;
 //---------END-------//
 ll arr[5001],brr[5001];
-ll res[5001];
 ll n,m,i,j,k,t,t1,u,v,a,b;
+vector<ll> res,lis;
 int main()
 {
 	fio;
@@ -75,19 +75,23 @@ int main()
 	for (i=1;i<=n;i++)
 	{
 		cin>>arr[i]>>brr[i];
-		res[i]=i;
 	}
-	for (t=1;t<=5000;t++)
+	for (i=2;i<=n;i++) lis.push_back(i);
+	res.push_back(1);
+	for (i=0;i<n-1;i++)
 	{
-	for (i=3;i<=n;i++)
-	{
-		if ((arr[res[i]]-arr[res[i-1]])*(arr[res[i-1]]-arr[res[i-2]])
+		u=0;
+		for (j=1;j<lis.size();j++) if (
+		(arr[res[i]]-arr[lis[u]])*(arr[res[i]]-arr[lis[u]])
 		+
-			(brr[res[i]]-brr[res[i-1]])*(brr[res[i-1]]-brr[res[i-2]])
-			>=0
-			)
-			swap(res[i],res[i-1]);
+		(brr[res[i]]-brr[lis[u]])*(brr[res[i]]-brr[lis[u]])
+		<
+		(arr[res[i]]-arr[lis[j]])*(arr[res[i]]-arr[lis[j]])
+		+
+		(brr[res[i]]-brr[lis[j]])*(brr[res[i]]-brr[lis[j]])
+		) u=j;
+		res.push_back(lis[u]);
+		lis.erase(lis.begin()+u);
 	}
-	}
-	for (i=1;i<=n;i++) cout<<res[i]<<' ';
+	for (auto g : res) cout<<g<<' ';
 }
