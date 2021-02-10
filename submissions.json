@@ -3237,6 +3237,22 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107046221": {
+    "contest_id": 1076,
+    "language": "GNU C++17",
+    "path": "codeforces\\1076\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Summer Practice Report",
+    "problem_url": "https://codeforces.com/contest/1076/problem/F",
+    "submission_id": "CF107046221",
+    "submission_url": "https://codeforces.com/contest/1076/submission/107046221",
+    "tags": [
+      "dp",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Feb/10/2021 16:29"
+  },
   "CF107051609": {
     "contest_id": 1374,
     "language": "GNU C++17",
