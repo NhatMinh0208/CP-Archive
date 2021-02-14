@@ -3237,6 +3237,22 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107312860": {
+    "contest_id": 618,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\618\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Robot Arm",
+    "problem_url": "https://codeforces.com/contest/618/problem/E",
+    "submission_id": "CF107312860",
+    "submission_url": "https://codeforces.com/contest/618/submission/107312860",
+    "tags": [
+      "data structures",
+      "geometry",
+      "*2500"
+    ],
+    "timestamp": "Feb/14/2021 10:23"
+  },
   "CF107314642": {
     "contest_id": 1187,
     "language": "GNU C++17 (64)",
