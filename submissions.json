@@ -3237,6 +3237,21 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107354722": {
+    "contest_id": 185,
+    "language": "GNU C++17",
+    "path": "codeforces\\185\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Clever Fat Rat",
+    "problem_url": "https://codeforces.com/contest/185/problem/C",
+    "submission_id": "CF107354722",
+    "submission_url": "https://codeforces.com/contest/185/submission/107354722",
+    "tags": [
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Feb/14/2021 23:27"
+  },
   "CF107394417": {
     "contest_id": 1327,
     "language": "GNU C++17",
