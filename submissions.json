@@ -3237,6 +3237,23 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107348317": {
+    "contest_id": 930,
+    "language": "GNU C++17",
+    "path": "codeforces\\930\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Game with Tokens",
+    "problem_url": "https://codeforces.com/contest/930/problem/D",
+    "submission_id": "CF107348317",
+    "submission_url": "https://codeforces.com/contest/930/submission/107348317",
+    "tags": [
+      "data structures",
+      "games",
+      "implementation",
+      "*2500"
+    ],
+    "timestamp": "Feb/14/2021 22:03"
+  },
   "CF107354722": {
     "contest_id": 185,
     "language": "GNU C++17",
