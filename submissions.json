@@ -3237,6 +3237,25 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107341224": {
+    "contest_id": 687,
+    "language": "GNU C++17",
+    "path": "codeforces\\687\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dividing Kingdom II",
+    "problem_url": "https://codeforces.com/contest/687/problem/D",
+    "submission_id": "CF107341224",
+    "submission_url": "https://codeforces.com/contest/687/submission/107341224",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dsu",
+      "graphs",
+      "sortings",
+      "*2500"
+    ],
+    "timestamp": "Feb/14/2021 20:23"
+  },
   "CF107348317": {
     "contest_id": 930,
     "language": "GNU C++17",
