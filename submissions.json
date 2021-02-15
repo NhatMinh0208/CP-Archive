@@ -3558,6 +3558,24 @@
     ],
     "timestamp": "Feb/15/2021 21:19"
   },
+  "CF107456849": {
+    "contest_id": 1487,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1487\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cheap Dinner",
+    "problem_url": "https://codeforces.com/contest/1487/problem/E",
+    "submission_id": "CF107456849",
+    "submission_url": "https://codeforces.com/contest/1487/submission/107456849",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "sortings",
+      "two pointers"
+    ],
+    "timestamp": "Feb/15/2021 23:08"
+  },
   "CF107498030": {
     "contest_id": 924,
     "language": "GNU C++17",
