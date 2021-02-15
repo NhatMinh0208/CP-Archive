@@ -3237,6 +3237,24 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107408501": {
+    "contest_id": 908,
+    "language": "GNU C++17",
+    "path": "codeforces\\908\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "New Year and Entity Enumeration",
+    "problem_url": "https://codeforces.com/contest/908/problem/E",
+    "submission_id": "CF107408501",
+    "submission_url": "https://codeforces.com/contest/908/submission/107408501",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Feb/15/2021 21:19"
+  },
   "CF107498030": {
     "contest_id": 924,
     "language": "GNU C++17",
