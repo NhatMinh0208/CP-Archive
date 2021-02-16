@@ -3237,6 +3237,21 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107518730": {
+    "contest_id": 1487,
+    "language": "GNU C++17",
+    "path": "codeforces\\1487\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Ones",
+    "problem_url": "https://codeforces.com/contest/1487/problem/F",
+    "submission_id": "CF107518730",
+    "submission_url": "https://codeforces.com/contest/1487/submission/107518730",
+    "tags": [
+      "dp",
+      "greedy"
+    ],
+    "timestamp": "Feb/16/2021 16:47"
+  },
   "CF107519331": {
     "contest_id": 1487,
     "language": "GNU C++17",
