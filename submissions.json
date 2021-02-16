@@ -3237,6 +3237,20 @@
     ],
     "timestamp": "Feb/09/2021 17:53"
   },
+  "CF107498030": {
+    "contest_id": 924,
+    "language": "GNU C++17",
+    "path": "codeforces\\924\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Contact ATC",
+    "problem_url": "https://codeforces.com/contest/924/problem/D",
+    "submission_id": "CF107498030",
+    "submission_url": "https://codeforces.com/contest/924/submission/107498030",
+    "tags": [
+      "*2500"
+    ],
+    "timestamp": "Feb/16/2021 10:35"
+  },
   "CF107518730": {
     "contest_id": 1487,
     "language": "GNU C++17",
