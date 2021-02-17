@@ -3807,6 +3807,23 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107675179": {
+    "contest_id": 212,
+    "language": "GNU C++17",
+    "path": "codeforces\\212\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cutting a Fence",
+    "problem_url": "https://codeforces.com/contest/212/problem/D",
+    "submission_id": "CF107675179",
+    "submission_url": "https://codeforces.com/contest/212/submission/107675179",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dsu",
+      "*2500"
+    ],
+    "timestamp": "Feb/17/2021 16:14"
+  },
   "CF107697023": {
     "contest_id": 1181,
     "language": "GNU C++17",
