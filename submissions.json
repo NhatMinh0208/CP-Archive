@@ -3807,6 +3807,22 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107667674": {
+    "contest_id": 543,
+    "language": "GNU C++17",
+    "path": "codeforces\\543\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Road Improvement",
+    "problem_url": "https://codeforces.com/contest/543/problem/D",
+    "submission_id": "CF107667674",
+    "submission_url": "https://codeforces.com/contest/543/submission/107667674",
+    "tags": [
+      "dp",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Feb/17/2021 14:42"
+  },
   "CF107669294": {
     "contest_id": 830,
     "language": "GNU C++17",
