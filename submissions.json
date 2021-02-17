@@ -3807,6 +3807,23 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107701414": {
+    "contest_id": 884,
+    "language": "GNU C++17",
+    "path": "codeforces\\884\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Anti-Palindromize",
+    "problem_url": "https://codeforces.com/contest/884/problem/F",
+    "submission_id": "CF107701414",
+    "submission_url": "https://codeforces.com/contest/884/submission/107701414",
+    "tags": [
+      "flows",
+      "graphs",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Feb/17/2021 21:38"
+  },
   "CF107759733": {
     "contest_id": 294,
     "language": "GNU C++17",
