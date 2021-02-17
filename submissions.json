@@ -3807,6 +3807,21 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107646861": {
+    "contest_id": 301,
+    "language": "GNU C++17",
+    "path": "codeforces\\301\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Yaroslav and Algorithm",
+    "problem_url": "https://codeforces.com/contest/301/problem/C",
+    "submission_id": "CF107646861",
+    "submission_url": "https://codeforces.com/contest/301/submission/107646861",
+    "tags": [
+      "constructive algorithms",
+      "*2500"
+    ],
+    "timestamp": "Feb/17/2021 08:45"
+  },
   "CF107648665": {
     "contest_id": 121,
     "language": "GNU C++17 (64)",
