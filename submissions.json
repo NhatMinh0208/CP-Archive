@@ -3807,6 +3807,23 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107648665": {
+    "contest_id": 121,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\121\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Lucky Segments",
+    "problem_url": "https://codeforces.com/contest/121/problem/D",
+    "submission_id": "CF107648665",
+    "submission_url": "https://codeforces.com/contest/121/submission/107648665",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Feb/17/2021 09:44"
+  },
   "CF107653077": {
     "contest_id": 1045,
     "language": "GNU C++17 (64)",
