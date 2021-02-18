@@ -191,7 +191,6 @@ void calc()
 }
 int main()
 {
-	fio;
 	cin>>n>>m;
 	cin>>s;
 	for (i=0;i<3;i++)
