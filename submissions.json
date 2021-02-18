@@ -3807,6 +3807,20 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107763761": {
+    "contest_id": 1085,
+    "language": "GNU C++17",
+    "path": "codeforces\\1085\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Rock-Paper-Scissors Champion",
+    "problem_url": "https://codeforces.com/contest/1085/problem/F",
+    "submission_id": "CF107763761",
+    "submission_url": "https://codeforces.com/contest/1085/submission/107763761",
+    "tags": [
+      "*2500"
+    ],
+    "timestamp": "Feb/18/2021 17:17"
+  },
   "CF107895777": {
     "contest_id": 884,
     "language": "GNU C++17",
