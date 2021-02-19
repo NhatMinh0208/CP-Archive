@@ -3807,6 +3807,21 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107925799": {
+    "contest_id": 401,
+    "language": "GNU C++17",
+    "path": "codeforces\\401\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Olympic Games",
+    "problem_url": "https://codeforces.com/contest/401/problem/E",
+    "submission_id": "CF107925799",
+    "submission_url": "https://codeforces.com/contest/401/submission/107925799",
+    "tags": [
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Feb/19/2021 16:04"
+  },
   "CF107932675": {
     "contest_id": 735,
     "language": "GNU C++17",
