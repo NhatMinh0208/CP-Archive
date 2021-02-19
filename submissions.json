@@ -3807,6 +3807,21 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107895777": {
+    "contest_id": 884,
+    "language": "GNU C++17",
+    "path": "codeforces\\884\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Binary Matrix",
+    "problem_url": "https://codeforces.com/contest/884/problem/E",
+    "submission_id": "CF107895777",
+    "submission_url": "https://codeforces.com/contest/884/submission/107895777",
+    "tags": [
+      "dsu",
+      "*2500"
+    ],
+    "timestamp": "Feb/19/2021 09:21"
+  },
   "CF107897628": {
     "contest_id": 822,
     "language": "GNU C++17",
