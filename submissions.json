@@ -3807,6 +3807,23 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107897628": {
+    "contest_id": 822,
+    "language": "GNU C++17",
+    "path": "codeforces\\822\\F.cpp",
+    "problem_index": "F",
+    "problem_name": "Madness",
+    "problem_url": "https://codeforces.com/contest/822/problem/F",
+    "submission_id": "CF107897628",
+    "submission_url": "https://codeforces.com/contest/822/submission/107897628",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "trees",
+      "*2500"
+    ],
+    "timestamp": "Feb/19/2021 10:03"
+  },
   "CF107920949": {
     "contest_id": 1430,
     "language": "GNU C++17",
