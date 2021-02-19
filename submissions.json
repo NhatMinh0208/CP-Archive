@@ -3807,6 +3807,22 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107932675": {
+    "contest_id": 735,
+    "language": "GNU C++17",
+    "path": "codeforces\\735\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Ostap and Tree",
+    "problem_url": "https://codeforces.com/contest/735/problem/E",
+    "submission_id": "CF107932675",
+    "submission_url": "https://codeforces.com/contest/735/submission/107932675",
+    "tags": [
+      "dp",
+      "trees",
+      "*2500"
+    ],
+    "timestamp": "Feb/19/2021 17:28"
+  },
   "CF107950777": {
     "contest_id": 935,
     "language": "GNU C++17",
