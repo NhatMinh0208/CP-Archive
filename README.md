@@ -12,18 +12,19 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1140 | [E - Almost Fault-Tolerant Database](https://codeforces.com/contest/1492/problem/E) | [GNU C++17](./codeforces/1492/E.cpp) | `constructive algorithms` `greedy` | Feb/23/2021 20:47 | 
-1139 | [A - Three swimmers](https://codeforces.com/contest/1492/problem/A) | [GNU C++17](./codeforces/1492/A.cpp) | `implementation` `math` | Feb/23/2021 17:10 | 
-1138 | [D - Genius's Gambit](https://codeforces.com/contest/1492/problem/D) | [GNU C++17](./codeforces/1492/D.cpp) | `constructive algorithms` `math` | Feb/23/2021 16:43 | 
-1137 | [C - Maximum width](https://codeforces.com/contest/1492/problem/C) | [GNU C++17](./codeforces/1492/C.cpp) | `data structures` `dp` `greedy` | Feb/23/2021 16:22 | 
-1136 | [C - Mastermind](https://codeforces.com/contest/1381/problem/C) | [GNU C++17](./codeforces/1381/C.cpp) | `constructive algorithms` `graph matchings` `greedy` `implementation` `sortings` `two pointers` `*2500` | Feb/22/2021 23:26 | 
-1135 | [G - Max and Min](https://codeforces.com/contest/566/problem/G) | [GNU C++17](./codeforces/566/G.cpp) | `geometry` `*2500` | Feb/22/2021 21:14 | 
-1134 | [D - DZY Loves Strings](https://codeforces.com/contest/444/problem/D) | [GNU C++17](./codeforces/444/D.cpp) | `binary search` `hashing` `strings` `two pointers` `*2500` | Feb/21/2021 17:29 | 
-1133 | [E2 - Rotate Columns (hard version)](https://codeforces.com/contest/1209/problem/E2) | [GNU C++17](./codeforces/1209/E2.cpp) | `bitmasks` `dp` `greedy` `sortings` `*2500` | Feb/21/2021 16:18 | 
-1132 | [K - Testing](https://codeforces.com/contest/39/problem/K) | [GNU C++17](./codeforces/39/K.cpp) | `*2600` | Feb/21/2021 11:09 | 
-1131 | [G - String Counting](https://codeforces.com/contest/1487/problem/G) | [GNU C++17](./codeforces/1487/G.cpp) | `combinatorics` `dp` `fft` `math` `*2700` | Feb/21/2021 11:02 | 
-1130 | [G - Four Melodies](https://codeforces.com/contest/818/problem/G) | [GNU C++17](./codeforces/818/G.cpp) | `flows` `graphs` `*2600` | Feb/20/2021 22:53 | 
-1129 | [D - Happy New Year](https://codeforces.com/contest/1313/problem/D) | [GNU C++17](./codeforces/1313/D.cpp) | `bitmasks` `dp` `implementation` `*2500` | Feb/20/2021 17:18 | 
+1141 | [E - Almost Fault-Tolerant Database](https://codeforces.com/contest/1492/problem/E) | [GNU C++17](./codeforces/1492/E.cpp) | `constructive algorithms` `greedy` | Feb/23/2021 20:47 | 
+1140 | [A - Three swimmers](https://codeforces.com/contest/1492/problem/A) | [GNU C++17](./codeforces/1492/A.cpp) | `implementation` `math` | Feb/23/2021 17:10 | 
+1139 | [D - Genius's Gambit](https://codeforces.com/contest/1492/problem/D) | [GNU C++17](./codeforces/1492/D.cpp) | `constructive algorithms` `math` | Feb/23/2021 16:43 | 
+1138 | [C - Maximum width](https://codeforces.com/contest/1492/problem/C) | [GNU C++17](./codeforces/1492/C.cpp) | `data structures` `dp` `greedy` | Feb/23/2021 16:22 | 
+1137 | [C - Mastermind](https://codeforces.com/contest/1381/problem/C) | [GNU C++17](./codeforces/1381/C.cpp) | `constructive algorithms` `graph matchings` `greedy` `implementation` `sortings` `two pointers` `*2500` | Feb/22/2021 23:26 | 
+1136 | [G - Max and Min](https://codeforces.com/contest/566/problem/G) | [GNU C++17](./codeforces/566/G.cpp) | `geometry` `*2500` | Feb/22/2021 21:14 | 
+1135 | [D - DZY Loves Strings](https://codeforces.com/contest/444/problem/D) | [GNU C++17](./codeforces/444/D.cpp) | `binary search` `hashing` `strings` `two pointers` `*2500` | Feb/21/2021 17:29 | 
+1134 | [E2 - Rotate Columns (hard version)](https://codeforces.com/contest/1209/problem/E2) | [GNU C++17](./codeforces/1209/E2.cpp) | `bitmasks` `dp` `greedy` `sortings` `*2500` | Feb/21/2021 16:18 | 
+1133 | [K - Testing](https://codeforces.com/contest/39/problem/K) | [GNU C++17](./codeforces/39/K.cpp) | `*2600` | Feb/21/2021 11:09 | 
+1132 | [G - String Counting](https://codeforces.com/contest/1487/problem/G) | [GNU C++17](./codeforces/1487/G.cpp) | `combinatorics` `dp` `fft` `math` `*2700` | Feb/21/2021 11:02 | 
+1131 | [G - Four Melodies](https://codeforces.com/contest/818/problem/G) | [GNU C++17](./codeforces/818/G.cpp) | `flows` `graphs` `*2600` | Feb/20/2021 22:53 | 
+1130 | [D - Happy New Year](https://codeforces.com/contest/1313/problem/D) | [GNU C++17](./codeforces/1313/D.cpp) | `bitmasks` `dp` `implementation` `*2500` | Feb/20/2021 17:18 | 
+1129 | [F - Pairs of Paths](https://codeforces.com/contest/1486/problem/F) | [GNU C++17](./codeforces/1486/F.cpp) | `combinatorics` `data structures` `dfs and similar` `dp` `trees` | Feb/20/2021 16:16 | 
 1128 | [E - Paired Payment](https://codeforces.com/contest/1486/problem/E) | [GNU C++17](./codeforces/1486/E.cpp) | `binary search` `constructive algorithms` `dp` `graphs` `shortest paths` | Feb/20/2021 11:15 | 
 1127 | [D - Max Median](https://codeforces.com/contest/1486/problem/D) | [GNU C++17](./codeforces/1486/D.cpp) | `binary search` `data structures` `dp` | Feb/20/2021 10:54 | 
 1126 | [C2 - Guessing the Greatest (hard version)](https://codeforces.com/contest/1486/problem/C2) | [GNU C++17](./codeforces/1486/C2.cpp) | `binary search` `interactive` | Feb/20/2021 10:33 | 
