@@ -3807,6 +3807,24 @@
     ],
     "timestamp": "Feb/16/2021 16:56"
   },
+  "CF107992425": {
+    "contest_id": 1486,
+    "language": "GNU C++17",
+    "path": "codeforces\\1486\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Paired Payment",
+    "problem_url": "https://codeforces.com/contest/1486/problem/E",
+    "submission_id": "CF107992425",
+    "submission_url": "https://codeforces.com/contest/1486/submission/107992425",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "dp",
+      "graphs",
+      "shortest paths"
+    ],
+    "timestamp": "Feb/20/2021 11:15"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
