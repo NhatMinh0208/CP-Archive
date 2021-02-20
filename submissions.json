@@ -4237,6 +4237,23 @@
     ],
     "timestamp": "Feb/20/2021 11:15"
   },
+  "CF108017966": {
+    "contest_id": 1313,
+    "language": "GNU C++17",
+    "path": "codeforces\\1313\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Happy New Year",
+    "problem_url": "https://codeforces.com/contest/1313/problem/D",
+    "submission_id": "CF108017966",
+    "submission_url": "https://codeforces.com/contest/1313/submission/108017966",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "implementation",
+      "*2500"
+    ],
+    "timestamp": "Feb/20/2021 17:18"
+  },
   "CF108042812": {
     "contest_id": 818,
     "language": "GNU C++17",
