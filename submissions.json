@@ -4237,6 +4237,20 @@
     ],
     "timestamp": "Feb/20/2021 11:15"
   },
+  "CF108069948": {
+    "contest_id": 39,
+    "language": "GNU C++17",
+    "path": "codeforces\\39\\K.cpp",
+    "problem_index": "K",
+    "problem_name": "Testing",
+    "problem_url": "https://codeforces.com/contest/39/problem/K",
+    "submission_id": "CF108069948",
+    "submission_url": "https://codeforces.com/contest/39/submission/108069948",
+    "tags": [
+      "*2600"
+    ],
+    "timestamp": "Feb/21/2021 11:09"
+  },
   "CF108088813": {
     "contest_id": 1209,
     "language": "GNU C++17",
