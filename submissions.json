@@ -4237,6 +4237,24 @@
     ],
     "timestamp": "Feb/20/2021 11:15"
   },
+  "CF108094435": {
+    "contest_id": 444,
+    "language": "GNU C++17",
+    "path": "codeforces\\444\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "DZY Loves Strings",
+    "problem_url": "https://codeforces.com/contest/444/problem/D",
+    "submission_id": "CF108094435",
+    "submission_url": "https://codeforces.com/contest/444/submission/108094435",
+    "tags": [
+      "binary search",
+      "hashing",
+      "strings",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Feb/21/2021 17:29"
+  },
   "CF108184831": {
     "contest_id": 566,
     "language": "GNU C++17",
