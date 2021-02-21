@@ -4237,6 +4237,24 @@
     ],
     "timestamp": "Feb/20/2021 11:15"
   },
+  "CF108088813": {
+    "contest_id": 1209,
+    "language": "GNU C++17",
+    "path": "codeforces\\1209\\E2.cpp",
+    "problem_index": "E2",
+    "problem_name": "Rotate Columns (hard version)",
+    "problem_url": "https://codeforces.com/contest/1209/problem/E2",
+    "submission_id": "CF108088813",
+    "submission_url": "https://codeforces.com/contest/1209/submission/108088813",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "sortings",
+      "*2500"
+    ],
+    "timestamp": "Feb/21/2021 16:18"
+  },
   "CF108094435": {
     "contest_id": 444,
     "language": "GNU C++17",
