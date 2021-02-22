@@ -4237,6 +4237,21 @@
     ],
     "timestamp": "Feb/20/2021 11:15"
   },
+  "CF108184831": {
+    "contest_id": 566,
+    "language": "GNU C++17",
+    "path": "codeforces\\566\\G.cpp",
+    "problem_index": "G",
+    "problem_name": "Max and Min",
+    "problem_url": "https://codeforces.com/contest/566/problem/G",
+    "submission_id": "CF108184831",
+    "submission_url": "https://codeforces.com/contest/566/submission/108184831",
+    "tags": [
+      "geometry",
+      "*2500"
+    ],
+    "timestamp": "Feb/22/2021 21:14"
+  },
   "CF108195574": {
     "contest_id": 1381,
     "language": "GNU C++17",
