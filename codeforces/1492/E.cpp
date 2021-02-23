@@ -1,11 +1,11 @@
-
+ 
 // Problem : E. Almost Fault-Tolerant Database
 // Contest : Codeforces - Codeforces Round #704 (Div. 2)
 // URL : https://codeforces.com/contest/1492/problem/E
 // Memory Limit : 512 MB
 // Time Limit : 2000 ms
 // Powered by CP Editor (https://github.com/cpeditor/cpeditor)
-
+ 
 /*
 	Normie's Template v2.0
 */
@@ -45,7 +45,7 @@ using namespace __gnu_pbds;
 //min/max redefines, so i dont have to resolve annoying compile errors.
 #define min(a,b) (((a)<(b))?(a):(b))
 #define max(a,b) (((a)>(b))?(a):(b))
-
+ 
 //Constants.
 #define MOD (ll(998244353))
 #define MAX 300001
@@ -123,6 +123,7 @@ void tri(int cnt)
 }
 int main()
 {
+    fio;
 	cin>>n>>m;
 	for (i=0;i<n;i++)
 	{

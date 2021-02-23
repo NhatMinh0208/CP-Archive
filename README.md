@@ -24,7 +24,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 1144 | [D - Degree Set](https://codeforces.com/contest/976/problem/D) | [GNU C++17](./codeforces/976/D.cpp) | `constructive algorithms` `graphs` `implementation` `*2500` | Feb/24/2021 20:46 | 
 1143 | [C - Help Greg the Dwarf](https://codeforces.com/contest/98/problem/C) | [GNU C++17](./codeforces/98/C.cpp) | `geometry` `ternary search` `*2500` | Feb/23/2021 22:57 | 
 1142 | [D - Space mines](https://codeforces.com/contest/89/problem/D) | [GNU C++17](./codeforces/89/D.cpp) | `geometry` `*2500` | Feb/23/2021 21:42 | 
-1141 | [E - Almost Fault-Tolerant Database](https://codeforces.com/contest/1492/problem/E) | [GNU C++17](./codeforces/1492/E.cpp) | `constructive algorithms` `greedy` | Feb/23/2021 20:47 | 
+1141 | [E - Almost Fault-Tolerant Database](https://codeforces.com/contest/1492/problem/E) | [GNU C++17 (64)](./codeforces/1492/E.cpp) | `brute force` `constructive algorithms` `dfs and similar` `greedy` `implementation` `*2500` | Feb/23/2021 21:07 | 
 1140 | [A - Three swimmers](https://codeforces.com/contest/1492/problem/A) | [GNU C++17](./codeforces/1492/A.cpp) | `implementation` `math` | Feb/23/2021 17:10 | 
 1139 | [D - Genius's Gambit](https://codeforces.com/contest/1492/problem/D) | [GNU C++17](./codeforces/1492/D.cpp) | `constructive algorithms` `math` | Feb/23/2021 16:43 | 
 1138 | [C - Maximum width](https://codeforces.com/contest/1492/problem/C) | [GNU C++17](./codeforces/1492/C.cpp) | `data structures` `dp` `greedy` | Feb/23/2021 16:22 | 
