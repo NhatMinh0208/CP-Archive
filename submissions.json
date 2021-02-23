@@ -4452,6 +4452,22 @@
     ],
     "timestamp": "Feb/23/2021 20:47"
   },
+  "CF108319801": {
+    "contest_id": 98,
+    "language": "GNU C++17",
+    "path": "codeforces\\98\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Help Greg the Dwarf",
+    "problem_url": "https://codeforces.com/contest/98/problem/C",
+    "submission_id": "CF108319801",
+    "submission_url": "https://codeforces.com/contest/98/submission/108319801",
+    "tags": [
+      "geometry",
+      "ternary search",
+      "*2500"
+    ],
+    "timestamp": "Feb/23/2021 22:57"
+  },
   "CF108407171": {
     "contest_id": 976,
     "language": "GNU C++17",
