@@ -4452,6 +4452,21 @@
     ],
     "timestamp": "Feb/23/2021 20:47"
   },
+  "CF108312038": {
+    "contest_id": 89,
+    "language": "GNU C++17",
+    "path": "codeforces\\89\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Space mines",
+    "problem_url": "https://codeforces.com/contest/89/problem/D",
+    "submission_id": "CF108312038",
+    "submission_url": "https://codeforces.com/contest/89/submission/108312038",
+    "tags": [
+      "geometry",
+      "*2500"
+    ],
+    "timestamp": "Feb/23/2021 21:42"
+  },
   "CF108319801": {
     "contest_id": 98,
     "language": "GNU C++17",
