@@ -4237,6 +4237,21 @@
     ],
     "timestamp": "Feb/20/2021 11:15"
   },
+  "CF108305830": {
+    "contest_id": 1492,
+    "language": "GNU C++17",
+    "path": "codeforces\\1492\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Almost Fault-Tolerant Database",
+    "problem_url": "https://codeforces.com/contest/1492/problem/E",
+    "submission_id": "CF108305830",
+    "submission_url": "https://codeforces.com/contest/1492/submission/108305830",
+    "tags": [
+      "constructive algorithms",
+      "greedy"
+    ],
+    "timestamp": "Feb/23/2021 20:47"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",

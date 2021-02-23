@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1129 | [E - Almost Fault-Tolerant Database](https://codeforces.com/contest/1492/problem/E) | [GNU C++17](./codeforces/1492/E.cpp) | `constructive algorithms` `greedy` | Feb/23/2021 20:47 | 
 1128 | [E - Paired Payment](https://codeforces.com/contest/1486/problem/E) | [GNU C++17](./codeforces/1486/E.cpp) | `binary search` `constructive algorithms` `dp` `graphs` `shortest paths` | Feb/20/2021 11:15 | 
 1127 | [D - Max Median](https://codeforces.com/contest/1486/problem/D) | [GNU C++17](./codeforces/1486/D.cpp) | `binary search` `data structures` `dp` | Feb/20/2021 10:54 | 
-1126 | [C1 - Guessing the Greatest (easy version)](https://codeforces.com/contest/1486/problem/C1) | [GNU C++17](./codeforces/1486/C1.cpp) | `binary search` `interactive` | Feb/20/2021 10:33 | 
-1125 | [C2 - Guessing the Greatest (hard version)](https://codeforces.com/contest/1486/problem/C2) | [GNU C++17](./codeforces/1486/C2.cpp) | `binary search` `interactive` | Feb/20/2021 10:33 | 
+1126 | [C2 - Guessing the Greatest (hard version)](https://codeforces.com/contest/1486/problem/C2) | [GNU C++17](./codeforces/1486/C2.cpp) | `binary search` `interactive` | Feb/20/2021 10:33 | 
+1125 | [C1 - Guessing the Greatest (easy version)](https://codeforces.com/contest/1486/problem/C1) | [GNU C++17](./codeforces/1486/C1.cpp) | `binary search` `interactive` | Feb/20/2021 10:33 | 
 1124 | [B - Eastern Exhibition](https://codeforces.com/contest/1486/problem/B) | [GNU C++17](./codeforces/1486/B.cpp) | `geometry` `shortest paths` `sortings` | Feb/20/2021 10:19 | 
 1123 | [A - Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | [GNU C++17](./codeforces/1486/A.cpp) | `greedy` `implementation` | Feb/20/2021 10:09 | 
 1122 | [F - Machine Learning](https://codeforces.com/contest/940/problem/F) | [GNU C++17](./codeforces/940/F.cpp) | `brute force` `data structures` `*2600` | Feb/19/2021 22:59 | 
