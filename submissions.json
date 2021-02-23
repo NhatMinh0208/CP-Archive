@@ -4237,6 +4237,21 @@
     ],
     "timestamp": "Feb/20/2021 11:15"
   },
+  "CF108261432": {
+    "contest_id": 1492,
+    "language": "GNU C++17",
+    "path": "codeforces\\1492\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Genius's Gambit",
+    "problem_url": "https://codeforces.com/contest/1492/problem/D",
+    "submission_id": "CF108261432",
+    "submission_url": "https://codeforces.com/contest/1492/submission/108261432",
+    "tags": [
+      "constructive algorithms",
+      "math"
+    ],
+    "timestamp": "Feb/23/2021 16:43"
+  },
   "CF108273165": {
     "contest_id": 1492,
     "language": "GNU C++17",
