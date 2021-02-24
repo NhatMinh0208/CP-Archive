@@ -12,15 +12,16 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1150 | [F - Magnets](https://codeforces.com/contest/1491/problem/F) | [GNU C++17](./codeforces/1491/F.cpp) | `binary search` `constructive algorithms` `interactive` `*2700` | Mar/01/2021 21:54 | 
-1149 | [E - Fib-tree](https://codeforces.com/contest/1491/problem/E) | [GNU C++17](./codeforces/1491/E.cpp) | `brute force` `dfs and similar` `divide and conquer` `number theory` `trees` `*2400` | Feb/28/2021 22:26 | 
-1148 | [C - Pekora and Trampoline](https://codeforces.com/contest/1491/problem/C) | [GNU C++17](./codeforces/1491/C.cpp) | `brute force` `data structures` `dp` `greedy` `implementation` `*1700` | Feb/28/2021 21:43 | 
-1147 | [D - Zookeeper and The Infinite Zoo](https://codeforces.com/contest/1491/problem/D) | [GNU C++17](./codeforces/1491/D.cpp) | `bitmasks` `constructive algorithms` `dp` `math` `*1800` | Feb/28/2021 21:25 | 
-1146 | [B - Minimal Cost](https://codeforces.com/contest/1491/problem/B) | [GNU C++17 (64)](./codeforces/1491/B.cpp) | `brute force` `math` `*1200` | Feb/28/2021 20:46 | 
-1145 | [A - K-th Largest Value](https://codeforces.com/contest/1491/problem/A) | [GNU C++17 (64)](./codeforces/1491/A.cpp) | `brute force` `greedy` `implementation` `*800` | Feb/28/2021 20:38 | 
-1144 | [C - Codeword](https://codeforces.com/contest/666/problem/C) | [GNU C++17](./codeforces/666/C.cpp) | `combinatorics` `strings` `*2500` | Feb/27/2021 22:27 | 
-1143 | [F - Leaf Partition](https://codeforces.com/contest/1146/problem/F) | [GNU C++17](./codeforces/1146/F.cpp) | `dp` `trees` `*2500` | Feb/26/2021 21:33 | 
-1142 | [E - Summer Earnings](https://codeforces.com/contest/333/problem/E) | [GNU C++17](./codeforces/333/E.cpp) | `binary search` `bitmasks` `brute force` `geometry` `sortings` `*2500` | Feb/26/2021 10:13 | 
+1151 | [F - Magnets](https://codeforces.com/contest/1491/problem/F) | [GNU C++17](./codeforces/1491/F.cpp) | `binary search` `constructive algorithms` `interactive` `*2700` | Mar/01/2021 21:54 | 
+1150 | [E - Fib-tree](https://codeforces.com/contest/1491/problem/E) | [GNU C++17](./codeforces/1491/E.cpp) | `brute force` `dfs and similar` `divide and conquer` `number theory` `trees` `*2400` | Feb/28/2021 22:26 | 
+1149 | [C - Pekora and Trampoline](https://codeforces.com/contest/1491/problem/C) | [GNU C++17](./codeforces/1491/C.cpp) | `brute force` `data structures` `dp` `greedy` `implementation` `*1700` | Feb/28/2021 21:43 | 
+1148 | [D - Zookeeper and The Infinite Zoo](https://codeforces.com/contest/1491/problem/D) | [GNU C++17](./codeforces/1491/D.cpp) | `bitmasks` `constructive algorithms` `dp` `math` `*1800` | Feb/28/2021 21:25 | 
+1147 | [B - Minimal Cost](https://codeforces.com/contest/1491/problem/B) | [GNU C++17 (64)](./codeforces/1491/B.cpp) | `brute force` `math` `*1200` | Feb/28/2021 20:46 | 
+1146 | [A - K-th Largest Value](https://codeforces.com/contest/1491/problem/A) | [GNU C++17 (64)](./codeforces/1491/A.cpp) | `brute force` `greedy` `implementation` `*800` | Feb/28/2021 20:38 | 
+1145 | [C - Codeword](https://codeforces.com/contest/666/problem/C) | [GNU C++17](./codeforces/666/C.cpp) | `combinatorics` `strings` `*2500` | Feb/27/2021 22:27 | 
+1144 | [F - Leaf Partition](https://codeforces.com/contest/1146/problem/F) | [GNU C++17](./codeforces/1146/F.cpp) | `dp` `trees` `*2500` | Feb/26/2021 21:33 | 
+1143 | [E - Summer Earnings](https://codeforces.com/contest/333/problem/E) | [GNU C++17](./codeforces/333/E.cpp) | `binary search` `bitmasks` `brute force` `geometry` `sortings` `*2500` | Feb/26/2021 10:13 | 
+1142 | [D - Degree Set](https://codeforces.com/contest/976/problem/D) | [GNU C++17](./codeforces/976/D.cpp) | `constructive algorithms` `graphs` `implementation` `*2500` | Feb/24/2021 20:46 | 
 1141 | [E - Almost Fault-Tolerant Database](https://codeforces.com/contest/1492/problem/E) | [GNU C++17](./codeforces/1492/E.cpp) | `constructive algorithms` `greedy` | Feb/23/2021 20:47 | 
 1140 | [A - Three swimmers](https://codeforces.com/contest/1492/problem/A) | [GNU C++17](./codeforces/1492/A.cpp) | `implementation` `math` | Feb/23/2021 17:10 | 
 1139 | [D - Genius's Gambit](https://codeforces.com/contest/1492/problem/D) | [GNU C++17](./codeforces/1492/D.cpp) | `constructive algorithms` `math` | Feb/23/2021 16:43 | 
