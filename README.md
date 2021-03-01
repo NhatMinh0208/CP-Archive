@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1142 | [F - Magnets](https://codeforces.com/contest/1491/problem/F) | [GNU C++17](./codeforces/1491/F.cpp) | `binary search` `constructive algorithms` `interactive` `*2700` | Mar/01/2021 21:54 | 
 1141 | [E - Almost Fault-Tolerant Database](https://codeforces.com/contest/1492/problem/E) | [GNU C++17](./codeforces/1492/E.cpp) | `constructive algorithms` `greedy` | Feb/23/2021 20:47 | 
 1140 | [A - Three swimmers](https://codeforces.com/contest/1492/problem/A) | [GNU C++17](./codeforces/1492/A.cpp) | `implementation` `math` | Feb/23/2021 17:10 | 
 1139 | [D - Genius's Gambit](https://codeforces.com/contest/1492/problem/D) | [GNU C++17](./codeforces/1492/D.cpp) | `constructive algorithms` `math` | Feb/23/2021 16:43 | 
