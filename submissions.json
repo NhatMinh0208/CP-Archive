@@ -4676,6 +4676,26 @@
     ],
     "timestamp": "Mar/01/2021 21:54"
   },
+  "CF109305166": {
+    "contest_id": 1493,
+    "language": "GNU C++17",
+    "path": "codeforces\\1493\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Enormous XOR",
+    "problem_url": "https://codeforces.com/contest/1493/problem/E",
+    "submission_id": "CF109305166",
+    "submission_url": "https://codeforces.com/contest/1493/submission/109305166",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "strings",
+      "two pointers",
+      "*2600"
+    ],
+    "timestamp": "Mar/07/2021 11:40"
+  },
   "CF109305572": {
     "contest_id": 1493,
     "language": "GNU C++17",
