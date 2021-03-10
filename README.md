@@ -12,14 +12,15 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1161 | [C - Matrix Sorting](https://codeforces.com/contest/1500/problem/C) | [GNU C++17](./codeforces/1500/C.cpp) | `bitmasks` `constructive algorithms` `dfs and similar` `greedy` `hashing` `string suffix structures` `two pointers` `*2600` | Mar/14/2021 09:23 | 
-1160 | [A - Going Home](https://codeforces.com/contest/1500/problem/A) | [GNU C++17](./codeforces/1500/A.cpp) | `brute force` `implementation` `math` `*1800` | Mar/13/2021 17:10 | 
-1159 | [D - Game](https://codeforces.com/contest/995/problem/D) | [GNU C++17](./codeforces/995/D.cpp) | `math` `*2500` | Mar/13/2021 11:24 | 
-1158 | [F - Permutation](https://codeforces.com/contest/452/problem/F) | [GNU C++17](./codeforces/452/F.cpp) | `data structures` `divide and conquer` `hashing` `*2700` | Mar/13/2021 10:25 | 
-1157 | [F - Yura and Developers](https://codeforces.com/contest/549/problem/F) | [GNU C++17](./codeforces/549/F.cpp) | `data structures` `divide and conquer` `*2800` | Mar/12/2021 22:03 | 
-1156 | [D - BFS Trees](https://codeforces.com/contest/1495/problem/D) | [GNU C++17](./codeforces/1495/D.cpp) | `combinatorics` `dfs and similar` `graphs` `math` `shortest paths` `trees` `*2600` | Mar/11/2021 23:21 | 
-1155 | [E - Rusty String](https://codeforces.com/contest/827/problem/E) | [GNU C++17 (64)](./codeforces/827/E.cpp) | `fft` `math` `strings` `*2700` | Mar/11/2021 11:13 | 
-1154 | [D - Frequency of String](https://codeforces.com/contest/963/problem/D) | [GNU C++17 (64)](./codeforces/963/D.cpp) | `hashing` `string suffix structures` `strings` `*2500` | Mar/11/2021 10:45 | 
+1162 | [C - Matrix Sorting](https://codeforces.com/contest/1500/problem/C) | [GNU C++17](./codeforces/1500/C.cpp) | `bitmasks` `constructive algorithms` `dfs and similar` `greedy` `hashing` `string suffix structures` `two pointers` `*2600` | Mar/14/2021 09:23 | 
+1161 | [A - Going Home](https://codeforces.com/contest/1500/problem/A) | [GNU C++17](./codeforces/1500/A.cpp) | `brute force` `implementation` `math` `*1800` | Mar/13/2021 17:10 | 
+1160 | [D - Game](https://codeforces.com/contest/995/problem/D) | [GNU C++17](./codeforces/995/D.cpp) | `math` `*2500` | Mar/13/2021 11:24 | 
+1159 | [F - Permutation](https://codeforces.com/contest/452/problem/F) | [GNU C++17](./codeforces/452/F.cpp) | `data structures` `divide and conquer` `hashing` `*2700` | Mar/13/2021 10:25 | 
+1158 | [F - Yura and Developers](https://codeforces.com/contest/549/problem/F) | [GNU C++17](./codeforces/549/F.cpp) | `data structures` `divide and conquer` `*2800` | Mar/12/2021 22:03 | 
+1157 | [D - BFS Trees](https://codeforces.com/contest/1495/problem/D) | [GNU C++17](./codeforces/1495/D.cpp) | `combinatorics` `dfs and similar` `graphs` `math` `shortest paths` `trees` `*2600` | Mar/11/2021 23:21 | 
+1156 | [E - Rusty String](https://codeforces.com/contest/827/problem/E) | [GNU C++17 (64)](./codeforces/827/E.cpp) | `fft` `math` `strings` `*2700` | Mar/11/2021 11:13 | 
+1155 | [D - Frequency of String](https://codeforces.com/contest/963/problem/D) | [GNU C++17 (64)](./codeforces/963/D.cpp) | `hashing` `string suffix structures` `strings` `*2500` | Mar/11/2021 10:45 | 
+1154 | [A - Diamond Miner](https://codeforces.com/contest/1495/problem/A) | [GNU C++17 (64)](./codeforces/1495/A.cpp) | `geometry` `greedy` `math` `sortings` `*1200` | Mar/10/2021 23:02 | 
 1153 | [F - Magnets](https://codeforces.com/contest/1491/problem/F) | [GNU C++17](./codeforces/1491/F.cpp) | `binary search` `constructive algorithms` `interactive` `*2700` | Mar/01/2021 21:54 | 
 1152 | [E - Fib-tree](https://codeforces.com/contest/1491/problem/E) | [GNU C++17](./codeforces/1491/E.cpp) | `brute force` `dfs and similar` `divide and conquer` `number theory` `trees` `*2400` | Feb/28/2021 22:26 | 
 1151 | [C - Pekora and Trampoline](https://codeforces.com/contest/1491/problem/C) | [GNU C++17](./codeforces/1491/C.cpp) | `brute force` `data structures` `dp` `greedy` `implementation` `*1700` | Feb/28/2021 21:43 | 
