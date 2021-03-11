@@ -4676,6 +4676,23 @@
     ],
     "timestamp": "Mar/01/2021 21:54"
   },
+  "CF109669709": {
+    "contest_id": 827,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\827\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Rusty String",
+    "problem_url": "https://codeforces.com/contest/827/problem/E",
+    "submission_id": "CF109669709",
+    "submission_url": "https://codeforces.com/contest/827/submission/109669709",
+    "tags": [
+      "fft",
+      "math",
+      "strings",
+      "*2700"
+    ],
+    "timestamp": "Mar/11/2021 11:13"
+  },
   "CF109723261": {
     "contest_id": 1495,
     "language": "GNU C++17",
