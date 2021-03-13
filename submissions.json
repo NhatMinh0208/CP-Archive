@@ -4676,6 +4676,21 @@
     ],
     "timestamp": "Mar/01/2021 21:54"
   },
+  "CF109826291": {
+    "contest_id": 995,
+    "language": "GNU C++17",
+    "path": "codeforces\\995\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Game",
+    "problem_url": "https://codeforces.com/contest/995/problem/D",
+    "submission_id": "CF109826291",
+    "submission_url": "https://codeforces.com/contest/995/submission/109826291",
+    "tags": [
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Mar/13/2021 11:24"
+  },
   "CF109864703": {
     "contest_id": 1500,
     "language": "GNU C++17",

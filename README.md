@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1155 | [C - Matrix Sorting](https://codeforces.com/contest/1500/problem/C) | [GNU C++17](./codeforces/1500/C.cpp) | `bitmasks` `constructive algorithms` `dfs and similar` `greedy` `hashing` `string suffix structures` `two pointers` `*2600` | Mar/14/2021 09:23 | 
-1154 | [A - Going Home](https://codeforces.com/contest/1500/problem/A) | [GNU C++17](./codeforces/1500/A.cpp) | `brute force` `implementation` `math` `*1800` | Mar/13/2021 17:10 | 
+1156 | [C - Matrix Sorting](https://codeforces.com/contest/1500/problem/C) | [GNU C++17](./codeforces/1500/C.cpp) | `bitmasks` `constructive algorithms` `dfs and similar` `greedy` `hashing` `string suffix structures` `two pointers` `*2600` | Mar/14/2021 09:23 | 
+1155 | [A - Going Home](https://codeforces.com/contest/1500/problem/A) | [GNU C++17](./codeforces/1500/A.cpp) | `brute force` `implementation` `math` `*1800` | Mar/13/2021 17:10 | 
+1154 | [D - Game](https://codeforces.com/contest/995/problem/D) | [GNU C++17](./codeforces/995/D.cpp) | `math` `*2500` | Mar/13/2021 11:24 | 
 1153 | [F - Magnets](https://codeforces.com/contest/1491/problem/F) | [GNU C++17](./codeforces/1491/F.cpp) | `binary search` `constructive algorithms` `interactive` `*2700` | Mar/01/2021 21:54 | 
 1152 | [E - Fib-tree](https://codeforces.com/contest/1491/problem/E) | [GNU C++17](./codeforces/1491/E.cpp) | `brute force` `dfs and similar` `divide and conquer` `number theory` `trees` `*2400` | Feb/28/2021 22:26 | 
 1151 | [C - Pekora and Trampoline](https://codeforces.com/contest/1491/problem/C) | [GNU C++17](./codeforces/1491/C.cpp) | `brute force` `data structures` `dp` `greedy` `implementation` `*1700` | Feb/28/2021 21:43 | 
