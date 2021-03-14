@@ -4676,6 +4676,27 @@
     ],
     "timestamp": "Mar/01/2021 21:54"
   },
+  "CF109931079": {
+    "contest_id": 1500,
+    "language": "GNU C++17",
+    "path": "codeforces\\1500\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Matrix Sorting",
+    "problem_url": "https://codeforces.com/contest/1500/problem/C",
+    "submission_id": "CF109931079",
+    "submission_url": "https://codeforces.com/contest/1500/submission/109931079",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dfs and similar",
+      "greedy",
+      "hashing",
+      "string suffix structures",
+      "two pointers",
+      "*2600"
+    ],
+    "timestamp": "Mar/14/2021 09:23"
+  },
   "CF42202931": {
     "contest_id": 1020,
     "language": "FPC",
