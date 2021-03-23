@@ -5054,6 +5054,22 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF110820396": {
+    "contest_id": 17,
+    "language": "GNU C++17",
+    "path": "codeforces/17/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Balance",
+    "problem_url": "https://codeforces.com/contest/17/problem/C",
+    "submission_id": "CF110820396",
+    "submission_url": "https://codeforces.com/contest/17/submission/110820396",
+    "tags": [
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Mar/23/2021 21:22"
+  },
   "CF110829191": {
     "contest_id": 797,
     "language": "GNU C++17",
