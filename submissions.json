@@ -5054,6 +5054,25 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF110829191": {
+    "contest_id": 797,
+    "language": "GNU C++17",
+    "path": "codeforces/797/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Mice and Holes",
+    "problem_url": "https://codeforces.com/contest/797/problem/F",
+    "submission_id": "CF110829191",
+    "submission_url": "https://codeforces.com/contest/797/submission/110829191",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "sortings",
+      "*2600"
+    ],
+    "timestamp": "Mar/23/2021 23:08"
+  },
   "CF110905920": {
     "contest_id": 605,
     "language": "GNU C++17",
