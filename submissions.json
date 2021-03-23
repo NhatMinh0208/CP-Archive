@@ -5054,6 +5054,23 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF110801031": {
+    "contest_id": 293,
+    "language": "GNU C++17",
+    "path": "codeforces/293/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Distinct Paths",
+    "problem_url": "https://codeforces.com/contest/293/problem/B",
+    "submission_id": "CF110801031",
+    "submission_url": "https://codeforces.com/contest/293/submission/110801031",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "*2700"
+    ],
+    "timestamp": "Mar/23/2021 16:29"
+  },
   "CF110816971": {
     "contest_id": 241,
     "language": "GNU C++17",
