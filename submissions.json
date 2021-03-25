@@ -5054,6 +5054,23 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111049849": {
+    "contest_id": 878,
+    "language": "GNU C++17",
+    "path": "codeforces/878/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tournament",
+    "problem_url": "https://codeforces.com/contest/878/problem/C",
+    "submission_id": "CF111049849",
+    "submission_url": "https://codeforces.com/contest/878/submission/111049849",
+    "tags": [
+      "data structures",
+      "graphs",
+      "*2700"
+    ],
+    "timestamp": "Mar/25/2021 23:17"
+  },
   "CF111136593": {
     "contest_id": 724,
     "language": "GNU C++17",
