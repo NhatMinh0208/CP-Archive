@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111152422": {
+    "contest_id": 585,
+    "language": "GNU C++17",
+    "path": "codeforces/585/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Present for Vitalik the Philatelist ",
+    "problem_url": "https://codeforces.com/contest/585/problem/E",
+    "submission_id": "CF111152422",
+    "submission_url": "https://codeforces.com/contest/585/submission/111152422",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*2900"
+    ],
+    "timestamp": "Mar/26/2021 23:31"
+  },
   "CF111199483": {
     "contest_id": 79,
     "language": "GNU C++17",
