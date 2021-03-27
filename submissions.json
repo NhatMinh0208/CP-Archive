@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111199483": {
+    "contest_id": 79,
+    "language": "GNU C++17",
+    "path": "codeforces/79/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Password",
+    "problem_url": "https://codeforces.com/contest/79/problem/D",
+    "submission_id": "CF111199483",
+    "submission_url": "https://codeforces.com/contest/79/submission/111199483",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "shortest paths",
+      "*2800"
+    ],
+    "timestamp": "Mar/27/2021 16:35"
+  },
   "CF111226190": {
     "contest_id": 1340,
     "language": "GNU C++17",
