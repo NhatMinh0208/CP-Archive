@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111353207": {
+    "contest_id": 1285,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1285/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Classical?",
+    "problem_url": "https://codeforces.com/contest/1285/problem/F",
+    "submission_id": "CF111353207",
+    "submission_url": "https://codeforces.com/contest/1285/submission/111353207",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "number theory",
+      "*2900"
+    ],
+    "timestamp": "Mar/29/2021 20:54"
+  },
   "CF111428194": {
     "contest_id": 1120,
     "language": "GNU C++17 (64)",
