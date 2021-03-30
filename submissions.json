@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111433588": {
+    "contest_id": 1254,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1254/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Tree Queries",
+    "problem_url": "https://codeforces.com/contest/1254/problem/D",
+    "submission_id": "CF111433588",
+    "submission_url": "https://codeforces.com/contest/1254/submission/111433588",
+    "tags": [
+      "data structures",
+      "probabilities",
+      "trees",
+      "*2700"
+    ],
+    "timestamp": "Mar/30/2021 11:17"
+  },
   "CF111455943": {
     "contest_id": 960,
     "language": "GNU C++17 (64)",
