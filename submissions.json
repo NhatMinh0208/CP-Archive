@@ -5054,6 +5054,22 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111519872": {
+    "contest_id": 1178,
+    "language": "GNU C++17",
+    "path": "codeforces/1178/F2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F2",
+    "problem_name": "Long Colorful Strip",
+    "problem_url": "https://codeforces.com/contest/1178/problem/F2",
+    "submission_id": "CF111519872",
+    "submission_url": "https://codeforces.com/contest/1178/submission/111519872",
+    "tags": [
+      "dp",
+      "*2600"
+    ],
+    "timestamp": "Mar/31/2021 10:35"
+  },
   "CF111520580": {
     "contest_id": 204,
     "language": "GNU C++17",
