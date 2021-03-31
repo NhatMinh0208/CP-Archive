@@ -5054,6 +5054,23 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111519684": {
+    "contest_id": 725,
+    "language": "GNU C++17",
+    "path": "codeforces/725/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Too Much Money",
+    "problem_url": "https://codeforces.com/contest/725/problem/E",
+    "submission_id": "CF111519684",
+    "submission_url": "https://codeforces.com/contest/725/submission/111519684",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Mar/31/2021 10:29"
+  },
   "CF111519872": {
     "contest_id": 1178,
     "language": "GNU C++17",
