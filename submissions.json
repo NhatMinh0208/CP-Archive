@@ -5054,6 +5054,28 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF111964227": {
+    "contest_id": 1503,
+    "language": "GNU C++17",
+    "path": "codeforces/1503/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Travelling Salesman Problem",
+    "problem_url": "https://codeforces.com/contest/1503/problem/C",
+    "submission_id": "CF111964227",
+    "submission_url": "https://codeforces.com/contest/1503/submission/111964227",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "shortest paths",
+      "sortings",
+      "two pointers",
+      "*2200"
+    ],
+    "timestamp": "Apr/04/2021 11:06"
+  },
   "CF111986656": {
     "contest_id": 1510,
     "language": "GNU C++17",
