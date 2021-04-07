@@ -5054,6 +5054,19 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF112190216": {
+    "contest_id": 1510,
+    "language": "GNU C++17",
+    "path": "codeforces/1510/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "ASCII Automata Art",
+    "problem_url": "https://codeforces.com/contest/1510/problem/A",
+    "submission_id": "CF112190216",
+    "submission_url": "https://codeforces.com/contest/1510/submission/112190216",
+    "tags": [],
+    "timestamp": "Apr/07/2021 10:00"
+  },
   "CF112270174": {
     "contest_id": 1510,
     "language": "GNU C++17",
