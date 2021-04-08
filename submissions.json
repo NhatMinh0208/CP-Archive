@@ -5054,6 +5054,28 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF112306743": {
+    "contest_id": 1400,
+    "language": "GNU C++17",
+    "path": "codeforces/1400/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Mercenaries",
+    "problem_url": "https://codeforces.com/contest/1400/problem/G",
+    "submission_id": "CF112306743",
+    "submission_url": "https://codeforces.com/contest/1400/submission/112306743",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "dsu",
+      "math",
+      "two pointers",
+      "*2600"
+    ],
+    "timestamp": "Apr/08/2021 20:32"
+  },
   "CF112319960": {
     "contest_id": 995,
     "language": "GNU C++17",
