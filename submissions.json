@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF112469312": {
+    "contest_id": 875,
+    "language": "GNU C++17",
+    "path": "codeforces/875/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Delivery Club",
+    "problem_url": "https://codeforces.com/contest/875/problem/E",
+    "submission_id": "CF112469312",
+    "submission_url": "https://codeforces.com/contest/875/submission/112469312",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "*2600"
+    ],
+    "timestamp": "Apr/10/2021 21:31"
+  },
   "CF112469579": {
     "contest_id": 383,
     "language": "GNU C++17",
