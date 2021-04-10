@@ -5054,6 +5054,25 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF112469579": {
+    "contest_id": 383,
+    "language": "GNU C++17",
+    "path": "codeforces/383/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Volcanoes",
+    "problem_url": "https://codeforces.com/contest/383/problem/B",
+    "submission_id": "CF112469579",
+    "submission_url": "https://codeforces.com/contest/383/submission/112469579",
+    "tags": [
+      "binary search",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Apr/10/2021 21:35"
+  },
   "CF112629875": {
     "contest_id": 914,
     "language": "GNU C++17",
