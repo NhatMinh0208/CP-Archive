@@ -5054,6 +5054,26 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF112629875": {
+    "contest_id": 914,
+    "language": "GNU C++17",
+    "path": "codeforces/914/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Sum the Fibonacci",
+    "problem_url": "https://codeforces.com/contest/914/problem/G",
+    "submission_id": "CF112629875",
+    "submission_url": "https://codeforces.com/contest/914/submission/112629875",
+    "tags": [
+      "bitmasks",
+      "divide and conquer",
+      "dp",
+      "fft",
+      "math",
+      "*2600"
+    ],
+    "timestamp": "Apr/11/2021 15:38"
+  },
   "CF112637087": {
     "contest_id": 1355,
     "language": "GNU C++17",
