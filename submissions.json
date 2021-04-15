@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF113074287": {
+    "contest_id": 176,
+    "language": "GNU C++17",
+    "path": "codeforces/176/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Archaeology",
+    "problem_url": "https://codeforces.com/contest/176/problem/E",
+    "submission_id": "CF113074287",
+    "submission_url": "https://codeforces.com/contest/176/submission/113074287",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*3100"
+    ],
+    "timestamp": "Apr/15/2021 16:04"
+  },
   "CF113097050": {
     "contest_id": 1365,
     "language": "GNU C++17",
