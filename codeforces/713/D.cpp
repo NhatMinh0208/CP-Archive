@@ -39,14 +39,14 @@ using namespace __gnu_pbds;
 //min/max redefines, so i dont have to resolve annoying compile errors.
 #define min(a,b) (((a)<(b))?(a):(b))
 #define max(a,b) (((a)>(b))?(a):(b))
- 
+
 // Fast min/max assigns to use with AVX.
 // Requires g++ 9.2.0.
 template<typename T>
 __attribute__((always_inline)) void chkmin(T& a, const T& b) {
     a=(a<b)?a:b;
 }
- 
+
 template<typename T>
 __attribute__((always_inline)) void chkmax(T& a, const T& b) {
     a=(a>b)?a:b;
@@ -79,7 +79,7 @@ const long double PI=3.14159265358979;
 typedef long long ll;
 typedef long double ld;
 typedef short sh;
- 
+
 // Binpow and stuff
 ll BOW(ll a, ll x, ll p)
 {
@@ -98,14 +98,14 @@ ll INV(ll a, ll p)
 //---------END-------//
 vector<int> vec;
 int n,m,i,j,k,t,t1,u,v,a,b,q,x1,y1,x2,y2;
-int kek[10][10][1002][1002];
+int kek[1002][1002][10][10];
 int arr[1002][1002];
 int lg2[1001];
 int get_max(int x1,int y1,int x2,int y2)
 {
 	int a=lg2[x2-x1+1];
 	int b=lg2[y2-y1+1];
-	return max(max(kek[a][b][x1][y1],kek[a][b][x2-(1<<a)+1][y1]),max(kek[a][b][x1][y2-(1<<b)+1],kek[a][b][x2-(1<<a)+1][y2-(1<<b)+1]));
+	return max(max(kek[x1][y1][a][b],kek[x2-(1<<a)+1][y1][a][b]),max(kek[x1][y2-(1<<b)+1][a][b],kek[x2-(1<<a)+1][y2-(1<<b)+1][a][b]));
 }
 int main()
 {
@@ -116,19 +116,19 @@ int main()
 	for (i=0;i<n;i++) for (j=0;j<m;j++) cin>>arr[i][j];
 	for (i=n-1;i>=0;i--) for (j=m-1;j>=0;j--)
 	{
-		if (arr[i][j]) kek[0][0][i][j]=min(kek[0][0][i][j+1],min(kek[0][0][i+1][j],kek[0][0][i+1][j+1]))+1;
-		else kek[0][0][i][j]=0;
+		if (arr[i][j]) kek[i][j][0][0]=min(kek[i][j+1][0][0],min(kek[i+1][j][0][0],kek[i+1][j+1][0][0]))+1;
+		else kek[i][j][0][0]=0;
 	}
 	//for (i=0;i<n;i++) {for (j=0;j<m;j++) cout<<kek[i][j][0][0]<<' '; cout<<endl;}
 	for (t=1;t<10;t++) for (i=0;i<n;i++) for (j=0;j<m;j++)
 	{
-		kek[t][0][i][j]=kek[t-1][0][i][j];
-		if (i+(1<<(t-1))<n) chkmax(kek[t][0][i][j],kek[t-1][0][i+(1<<(t-1))][j]);
+		kek[i][j][t][0]=kek[i][j][t-1][0];
+		if (i+(1<<(t-1))<n) chkmax(kek[i][j][t][0],kek[i+(1<<(t-1))][j][t-1][0]);
 	}
 	for (t1=1;t1<10;t1++) for (t=0;t<10;t++) for (i=0;i<n;i++) for (j=0;j<m;j++)
 	{
-		kek[t][t1][i][j]=kek[t][t1-1][i][j];
-		if (j+(1<<(t1-1))<m) chkmax(kek[t][t1][i][j],kek[t][t1-1][i][j+(1<<(t1-1))]);
+		kek[i][j][t][t1]=kek[i][j][t][t1-1];
+		if (j+(1<<(t1-1))<m) chkmax(kek[i][j][t][t1],kek[i][j+(1<<(t1-1))][t][t1-1]);
 	}
 	cin>>q;
 	for (t=1;t<=q;t++)
