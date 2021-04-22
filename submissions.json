@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF113863642": {
+    "contest_id": 813,
+    "language": "GNU C++17",
+    "path": "codeforces/813/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Bipartite Checking",
+    "problem_url": "https://codeforces.com/contest/813/problem/F",
+    "submission_id": "CF113863642",
+    "submission_url": "https://codeforces.com/contest/813/submission/113863642",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "*2500"
+    ],
+    "timestamp": "Apr/22/2021 15:51"
+  },
   "CF113871003": {
     "contest_id": 1510,
     "language": "GNU C++17",
