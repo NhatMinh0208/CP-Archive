@@ -5054,6 +5054,25 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF114094378": {
+    "contest_id": 1517,
+    "language": "GNU C++17",
+    "path": "codeforces/1517/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Group Photo",
+    "problem_url": "https://codeforces.com/contest/1517/problem/E",
+    "submission_id": "CF114094378",
+    "submission_url": "https://codeforces.com/contest/1517/submission/114094378",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Apr/24/2021 16:17"
+  },
   "CF114164924": {
     "contest_id": 346,
     "language": "GNU C++17",
