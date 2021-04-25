@@ -5054,6 +5054,23 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF114189417": {
+    "contest_id": 1312,
+    "language": "GNU C++17",
+    "path": "codeforces/1312/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Attack on Red Kingdom",
+    "problem_url": "https://codeforces.com/contest/1312/problem/F",
+    "submission_id": "CF114189417",
+    "submission_url": "https://codeforces.com/contest/1312/submission/114189417",
+    "tags": [
+      "games",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Apr/25/2021 16:43"
+  },
   "CF114204805": {
     "contest_id": 633,
     "language": "GNU C++17",
