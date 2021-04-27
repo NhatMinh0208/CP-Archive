@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF114381275": {
+    "contest_id": 1517,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1517/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Starry Night Camping",
+    "problem_url": "https://codeforces.com/contest/1517/problem/G",
+    "submission_id": "CF114381275",
+    "submission_url": "https://codeforces.com/contest/1517/submission/114381275",
+    "tags": [
+      "constructive algorithms",
+      "flows",
+      "graphs",
+      "*3300"
+    ],
+    "timestamp": "Apr/27/2021 23:09"
+  },
   "CF114434329": {
     "contest_id": 444,
     "language": "GNU C++17 (64)",
