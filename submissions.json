@@ -5054,6 +5054,24 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF114453033": {
+    "contest_id": 1280,
+    "language": "GNU C++17",
+    "path": "codeforces/1280/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Miss Punyverse",
+    "problem_url": "https://codeforces.com/contest/1280/problem/D",
+    "submission_id": "CF114453033",
+    "submission_url": "https://codeforces.com/contest/1280/submission/114453033",
+    "tags": [
+      "dp",
+      "greedy",
+      "trees",
+      "*2500"
+    ],
+    "timestamp": "Apr/28/2021 20:29"
+  },
   "CF114453937": {
     "contest_id": 571,
     "language": "GNU C++17",
