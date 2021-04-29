@@ -5054,6 +5054,26 @@
     ],
     "timestamp": "Mar/14/2021 09:23"
   },
+  "CF114610196": {
+    "contest_id": 1267,
+    "language": "GNU C++17",
+    "path": "codeforces/1267/I.cpp",
+    "platform": "Codeforces",
+    "problem_index": "I",
+    "problem_name": "Intriguing Selection",
+    "problem_url": "https://codeforces.com/contest/1267/problem/I",
+    "submission_id": "CF114610196",
+    "submission_url": "https://codeforces.com/contest/1267/submission/114610196",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "interactive",
+      "sortings",
+      "*2600"
+    ],
+    "timestamp": "Apr/29/2021 23:28"
+  },
   "CF114687903": {
     "contest_id": 1513,
     "language": "PyPy 3",
