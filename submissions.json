@@ -7620,6 +7620,23 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF115163776": {
+    "contest_id": 671,
+    "language": "GNU C++17",
+    "path": "codeforces/671/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ultimate Weirdness of an Array",
+    "problem_url": "https://codeforces.com/contest/671/problem/C",
+    "submission_id": "CF115163776",
+    "submission_url": "https://codeforces.com/contest/671/submission/115163776",
+    "tags": [
+      "data structures",
+      "number theory",
+      "*2800"
+    ],
+    "timestamp": "May/05/2021 10:53"
+  },
   "CF115190832": {
     "contest_id": 348,
     "language": "GNU C++17",
