@@ -157,7 +157,6 @@ struct seg
 	}
 	void update(ll l, ll r, ll d)
 	{
-        
   //      cout<<"update "<<l<<' '<<r<<' '<<d<<endl;
 		if (l>r) return;
 		updateK(1,n,1,l,r,d);
