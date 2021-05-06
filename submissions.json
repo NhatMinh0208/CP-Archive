@@ -7620,6 +7620,24 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF115438290": {
+    "contest_id": 993,
+    "language": "GNU C++17",
+    "path": "codeforces/993/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Compute Power",
+    "problem_url": "https://codeforces.com/contest/993/problem/D",
+    "submission_id": "CF115438290",
+    "submission_url": "https://codeforces.com/contest/993/submission/115438290",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "May/06/2021 23:17"
+  },
   "CF115470463": {
     "contest_id": 1083,
     "language": "GNU C++17",
