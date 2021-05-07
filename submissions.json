@@ -7620,6 +7620,23 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF115521001": {
+    "contest_id": 982,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/982/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Billiard",
+    "problem_url": "https://codeforces.com/contest/982/problem/E",
+    "submission_id": "CF115521001",
+    "submission_url": "https://codeforces.com/contest/982/submission/115521001",
+    "tags": [
+      "geometry",
+      "number theory",
+      "*2600"
+    ],
+    "timestamp": "May/07/2021 21:04"
+  },
   "CF115595977": {
     "contest_id": 1521,
     "language": "GNU C++17",
