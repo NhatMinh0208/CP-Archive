@@ -7620,6 +7620,27 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF115722125": {
+    "contest_id": 1207,
+    "language": "GNU C++17",
+    "path": "codeforces/1207/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Indie Album",
+    "problem_url": "https://codeforces.com/contest/1207/problem/G",
+    "submission_id": "CF115722125",
+    "submission_url": "https://codeforces.com/contest/1207/submission/115722125",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "trees",
+      "*2700"
+    ],
+    "timestamp": "May/08/2021 23:24"
+  },
   "CF115722230": {
     "contest_id": 455,
     "language": "GNU C++17",
