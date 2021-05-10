@@ -7620,6 +7620,24 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF115830663": {
+    "contest_id": 1208,
+    "language": "GNU C++17",
+    "path": "codeforces/1208/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Polygons",
+    "problem_url": "https://codeforces.com/contest/1208/problem/G",
+    "submission_id": "CF115830663",
+    "submission_url": "https://codeforces.com/contest/1208/submission/115830663",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*2800"
+    ],
+    "timestamp": "May/10/2021 10:56"
+  },
   "CF115875170": {
     "contest_id": 722,
     "language": "GNU C++17",
