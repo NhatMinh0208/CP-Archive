@@ -7620,6 +7620,25 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF115905188": {
+    "contest_id": 1254,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1254/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Point Ordering",
+    "problem_url": "https://codeforces.com/contest/1254/problem/C",
+    "submission_id": "CF115905188",
+    "submission_url": "https://codeforces.com/contest/1254/submission/115905188",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "interactive",
+      "math",
+      "*2300"
+    ],
+    "timestamp": "May/11/2021 09:15"
+  },
   "CF115985423": {
     "contest_id": 814,
     "language": "GNU C++17",
