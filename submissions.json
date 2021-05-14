@@ -7620,6 +7620,26 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF116195519": {
+    "contest_id": 1519,
+    "language": "GNU C++17",
+    "path": "codeforces/1519/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Chests and Keys",
+    "problem_url": "https://codeforces.com/contest/1519/problem/F",
+    "submission_id": "CF116195519",
+    "submission_url": "https://codeforces.com/contest/1519/submission/116195519",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "flows",
+      "*3200"
+    ],
+    "timestamp": "May/14/2021 22:55"
+  },
   "CF116223496": {
     "contest_id": 1034,
     "language": "GNU C++17",
