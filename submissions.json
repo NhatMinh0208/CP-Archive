@@ -7620,6 +7620,24 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF116414347": {
+    "contest_id": 864,
+    "language": "GNU C++17",
+    "path": "codeforces/864/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Cities Excursions",
+    "problem_url": "https://codeforces.com/contest/864/problem/F",
+    "submission_id": "CF116414347",
+    "submission_url": "https://codeforces.com/contest/864/submission/116414347",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2700"
+    ],
+    "timestamp": "May/16/2021 21:58"
+  },
   "CF116420734": {
     "contest_id": 1421,
     "language": "GNU C++17",
