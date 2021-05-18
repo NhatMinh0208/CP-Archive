@@ -7620,6 +7620,22 @@
     ],
     "timestamp": "May/04/2021 16:45"
   },
+  "CF116582020": {
+    "contest_id": 1525,
+    "language": "PyPy 3",
+    "path": "codeforces/1525/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Potion-making",
+    "problem_url": "https://codeforces.com/contest/1525/problem/A",
+    "submission_id": "CF116582020",
+    "submission_url": "https://codeforces.com/contest/1525/submission/116582020",
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "timestamp": "May/18/2021 22:38"
+  },
   "CF116658156": {
     "contest_id": 1517,
     "language": "GNU C++17",
