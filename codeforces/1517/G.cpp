@@ -15,180 +15,8 @@ using namespace __gnu_pbds;
 #define ordered_set(el) tree<el,null_type,less<el>,rb_tree_tag,tree_order_statistics_node_update>
  
 // AtCoder library. (Comment out these two lines if you're not submitting in AtCoder.) (Or if you want to use it in other judges, run expander.py first.)
-
-#include <algorithm>
-#include <cassert>
-#include <limits>
-#include <queue>
-#include <vector>
-
-
-#include <vector>
-
-namespace atcoder {
-
-namespace internal {
-
-template <class T> struct simple_queue {
-    std::vector<T> payload;
-    int pos = 0;
-    void reserve(int n) { payload.reserve(n); }
-    int size() const { return int(payload.size()) - pos; }
-    bool empty() const { return pos == int(payload.size()); }
-    void push(const T& t) { payload.push_back(t); }
-    T& front() { return payload[pos]; }
-    void clear() {
-        payload.clear();
-        pos = 0;
-    }
-    void pop() { pos++; }
-};
-
-}  // namespace internal
-
-}  // namespace atcoder
-
-
-namespace atcoder {
-
-template <class Cap> struct mf_graph {
-  public:
-    mf_graph() : _n(0) {}
-    explicit mf_graph(int n) : _n(n), g(n) {}
-
-    int add_edge(int from, int to, Cap cap) {
-        assert(0 <= from && from < _n);
-        assert(0 <= to && to < _n);
-        assert(0 <= cap);
-        int m = int(pos.size());
-        pos.push_back({from, int(g[from].size())});
-        int from_id = int(g[from].size());
-        int to_id = int(g[to].size());
-        if (from == to) to_id++;
-        g[from].push_back(_edge{to, to_id, cap});
-        g[to].push_back(_edge{from, from_id, 0});
-        return m;
-    }
-
-    struct edge {
-        int from, to;
-        Cap cap, flow;
-    };
-
-    edge get_edge(int i) {
-        int m = int(pos.size());
-        assert(0 <= i && i < m);
-        auto _e = g[pos[i].first][pos[i].second];
-        auto _re = g[_e.to][_e.rev];
-        return edge{pos[i].first, _e.to, _e.cap + _re.cap, _re.cap};
-    }
-    std::vector<edge> edges() {
-        int m = int(pos.size());
-        std::vector<edge> result;
-        for (int i = 0; i < m; i++) {
-            result.push_back(get_edge(i));
-        }
-        return result;
-    }
-    void change_edge(int i, Cap new_cap, Cap new_flow) {
-        int m = int(pos.size());
-        assert(0 <= i && i < m);
-        assert(0 <= new_flow && new_flow <= new_cap);
-        auto& _e = g[pos[i].first][pos[i].second];
-        auto& _re = g[_e.to][_e.rev];
-        _e.cap = new_cap - new_flow;
-        _re.cap = new_flow;
-    }
-
-    Cap flow(int s, int t) {
-        return flow(s, t, std::numeric_limits<Cap>::max());
-    }
-    Cap flow(int s, int t, Cap flow_limit) {
-        assert(0 <= s && s < _n);
-        assert(0 <= t && t < _n);
-        assert(s != t);
-
-        std::vector<int> level(_n), iter(_n);
-        internal::simple_queue<int> que;
-
-        auto bfs = [&]() {
-            std::fill(level.begin(), level.end(), -1);
-            level[s] = 0;
-            que.clear();
-            que.push(s);
-            while (!que.empty()) {
-                int v = que.front();
-                que.pop();
-                for (auto e : g[v]) {
-                    if (e.cap == 0 || level[e.to] >= 0) continue;
-                    level[e.to] = level[v] + 1;
-                    if (e.to == t) return;
-                    que.push(e.to);
-                }
-            }
-        };
-        auto dfs = [&](auto self, int v, Cap up) {
-            if (v == s) return up;
-            Cap res = 0;
-            int level_v = level[v];
-            for (int& i = iter[v]; i < int(g[v].size()); i++) {
-                _edge& e = g[v][i];
-                if (level_v <= level[e.to] || g[e.to][e.rev].cap == 0) continue;
-                Cap d =
-                    self(self, e.to, std::min(up - res, g[e.to][e.rev].cap));
-                if (d <= 0) continue;
-                g[v][i].cap += d;
-                g[e.to][e.rev].cap -= d;
-                res += d;
-                if (res == up) return res;
-            }
-            level[v] = _n;
-            return res;
-        };
-
-        Cap flow = 0;
-        while (flow < flow_limit) {
-            bfs();
-            if (level[t] == -1) break;
-            std::fill(iter.begin(), iter.end(), 0);
-            Cap f = dfs(dfs, t, flow_limit - flow);
-            if (!f) break;
-            flow += f;
-        }
-        return flow;
-    }
-
-    std::vector<bool> min_cut(int s) {
-        std::vector<bool> visited(_n);
-        internal::simple_queue<int> que;
-        que.push(s);
-        while (!que.empty()) {
-            int p = que.front();
-            que.pop();
-            visited[p] = true;
-            for (auto e : g[p]) {
-                if (e.cap && !visited[e.to]) {
-                    visited[e.to] = true;
-                    que.push(e.to);
-                }
-            }
-        }
-        return visited;
-    }
-
-  private:
-    int _n;
-    struct _edge {
-        int to, rev;
-        Cap cap;
-    };
-    std::vector<std::pair<int, int>> pos;
-    std::vector<std::vector<_edge>> g;
-};
-
-}  // namespace atcoder
-
-using namespace atcoder;
+//#include <atcoder/maxflow>
+//using namespace atcoder;
  
 //Pragmas (Comment out these three lines if you're submitting in szkopul.)
 #pragma comment(linker, "/stack:200000000")
@@ -267,14 +95,137 @@ ll INV(ll a, ll p)
 	return BOW(a,p-2,p);
 }
 //---------END-------//
+namespace CPL_PRFlow
+{
+    struct mf_graph
+    {
+    struct edge
+    {
+        int v,rev;
+        int forward;
+        ll flow,cap;
+        edge(int _v, int _rev, ll _flow, ll _cap, ll _f) : v(_v),rev(_rev),flow(_flow),cap(_cap),forward(_f) {}
+    };
+    vector<vector<edge>> gt;
+    vector<int> h,po;
+    vector<ll> excess;
+    queue<int> q;
+    vector<vector<int>> buc;
+    int cur_height;
+    int n,ss,tt;
+    mf_graph(int _n=1000) : gt(_n),h(_n),excess(_n),n(_n),po(_n),buc(2*_n+1) {}
+    void add_edge(int s, int t, ll cap, ll rcap=0)
+    {
+        if (s-t)
+        {
+            gt[s].push_back({t,gt[t].size(),0,cap,1});
+            gt[t].push_back({s,gt[s].size()-1,cap,0,0});
+        }
+    }
+    void push(int u, int x, ll f) // Push flow along edge gt[u][x].
+    {
+        if (!f) return;
+        gt[u][x].flow+=f;
+        gt[u][x].cap-=f;
+        excess[u]-=f;
+
+        int v=gt[u][x].v,y=gt[u][x].rev;
+
+        if ((!excess[v])and(v-ss)and(v-tt))
+        {
+            buc[h[v]].push_back(v);
+            if (cur_height<h[v]) cur_height=h[v];
+        }
+        gt[v][y].flow-=f;
+        gt[v][y].cap+=f;
+        excess[v]+=f;
+        //cout<<"end push "<<u<<' '<<x<<' '<<f<<endl;
+
+    }
+    void rise(int u) // Increases u's height.
+    {
+        //cout<<"rise "<<u<<endl;
+        int minn=1e9+7;
+        for (auto g : gt[u]) if (g.cap) minn=min(minn,h[g.v]);
+        if (minn<1e9)
+        h[u]=minn+1;
+        //cout<<"end rise "<<u<<endl;
+    }
+    void discharge(int u) // Get rid of all excess in u.
+    {
+        
+        //cout<<"discharge "<<u<<' '<<h[u]<<endl;
+        while(excess[u])
+        {
+            if (po[u]<gt[u].size())
+            {
+//                cout<<u<<' '<<gt[u][po[u]].v<<' '<<gt[u][po[u]].flow<<' '<<gt[u][po[u]].cap<<' '<<excess[u]<<endl;
+                if ((h[u]==h[gt[u][po[u]].v]+1)and(gt[u][po[u]].cap)) 
+                {
+                    push(u,po[u],min(excess[u],gt[u][po[u]].cap));
+                }
+                po[u]++;
+            }
+            else
+            {
+                rise(u);
+                po[u]=0;
+            }
+        }
+        //cout<<"end discharge "<<u<<' '<<h[u]<<endl;
+    }
+    ll calc_flow(int s, int t)
+    {
+        ss=s;
+        tt=t;
+        h.assign(n,0);
+        po.assign(n,0);
+        h[s]=n;
+        for (int i=0;i<n;i++)
+        for (auto& g : gt[i]) if (g.forward)
+        {
+            g.flow=0;
+            g.cap=g.cap+gt[g.v][g.rev].cap;
+            gt[g.v][g.rev].cap=0;
+            gt[g.v][g.rev].flow=g.cap;
+        }
+        excess.assign(n,0);
+        excess[s]=1e18+7;
+        cur_height=n;
+        for (int i=0;i<gt[s].size();i++)
+        {
+            push(s,i,gt[s][i].cap);
+        }
+        
+        while(cur_height>=0)
+        {
+            if (!buc[cur_height].size()) cur_height--;
+            else
+            {
+                auto u=buc[cur_height].back();
+                buc[cur_height].pop_back();
+                discharge(u);
+            }
+        }
+        
+        ll res=0;
+        for (auto g : gt[t]) res+=g.cap;
+        return res;
+    }
+    };
+}
+using namespace CPL_PRFlow;
+
+
+
 vector<ll> vec;
 ll n,m,i,j,k,t,t1,u,v,a,b;
 ll x[1001],y[1001];
 int main()
 {
-	fio;
+//	fio;
     cin>>n;
-    mf_graph<ll> gr(2*n+2);
+    mf_graph gr(2*n+2);
     for (i=0;i<n;i++)
     {
         cin>>x[i]>>y[i]>>u;
@@ -313,5 +264,5 @@ int main()
             gr.add_edge(i*2+1,2*n+1,1e12+1);
         }
     }
-    cout<<v-gr.flow(2*n,2*n+1);
+    cout<<v-gr.calc_flow(2*n,2*n+1);
 }
