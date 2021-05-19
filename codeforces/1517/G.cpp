@@ -110,10 +110,8 @@ namespace CPL_PRFlow
     vector<int> h,po;
     vector<ll> excess;
     queue<int> q;
-    vector<vector<int>> buc;
-    int cur_height;
-    int n,ss,tt;
-    mf_graph(int _n=1000) : gt(_n),h(_n),excess(_n),n(_n),po(_n),buc(2*_n+1) {}
+    int n;
+    mf_graph(int _n=1000) : gt(_n),h(_n),excess(_n),n(_n),po(_n) {}
     void add_edge(int s, int t, ll cap, ll rcap=0)
     {
         if (s-t)
@@ -124,6 +122,7 @@ namespace CPL_PRFlow
     }
     void push(int u, int x, ll f) // Push flow along edge gt[u][x].
     {
+    //    cout<<"push "<<u<<' '<<x<<' '<<f<<endl;
         if (!f) return;
         gt[u][x].flow+=f;
         gt[u][x].cap-=f;
@@ -131,30 +130,22 @@ namespace CPL_PRFlow
 
         int v=gt[u][x].v,y=gt[u][x].rev;
 
-        if ((!excess[v])and(v-ss)and(v-tt))
-        {
-            buc[h[v]].push_back(v);
-            if (cur_height<h[v]) cur_height=h[v];
-        }
+        if (!excess[v]) q.push(v);
         gt[v][y].flow-=f;
         gt[v][y].cap+=f;
         excess[v]+=f;
-        //cout<<"end push "<<u<<' '<<x<<' '<<f<<endl;
 
     }
     void rise(int u) // Increases u's height.
     {
-        //cout<<"rise "<<u<<endl;
         int minn=1e9+7;
         for (auto g : gt[u]) if (g.cap) minn=min(minn,h[g.v]);
         if (minn<1e9)
         h[u]=minn+1;
-        //cout<<"end rise "<<u<<endl;
     }
     void discharge(int u) // Get rid of all excess in u.
     {
-        
-        //cout<<"discharge "<<u<<' '<<h[u]<<endl;
+//        cout<<"discharge "<<u<<endl;
         while(excess[u])
         {
             if (po[u]<gt[u].size())
@@ -172,12 +163,9 @@ namespace CPL_PRFlow
                 po[u]=0;
             }
         }
-        //cout<<"end discharge "<<u<<' '<<h[u]<<endl;
     }
     ll calc_flow(int s, int t)
     {
-        ss=s;
-        tt=t;
         h.assign(n,0);
         po.assign(n,0);
         h[s]=n;
@@ -191,23 +179,16 @@ namespace CPL_PRFlow
         }
         excess.assign(n,0);
         excess[s]=1e18+7;
-        cur_height=n;
         for (int i=0;i<gt[s].size();i++)
         {
             push(s,i,gt[s][i].cap);
         }
-        
-        while(cur_height>=0)
+        while(q.size())
         {
-            if (!buc[cur_height].size()) cur_height--;
-            else
-            {
-                auto u=buc[cur_height].back();
-                buc[cur_height].pop_back();
-                discharge(u);
-            }
+            auto u=q.front();
+            q.pop();
+            if ((u-s)and(u-t)) discharge(u);
         }
-        
         ll res=0;
         for (auto g : gt[t]) res+=g.cap;
         return res;
@@ -223,7 +204,7 @@ ll n,m,i,j,k,t,t1,u,v,a,b;
 ll x[1001],y[1001];
 int main()
 {
-//	fio;
+	fio;
     cin>>n;
     mf_graph gr(2*n+2);
     for (i=0;i<n;i++)
